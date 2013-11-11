@@ -5,6 +5,6 @@ unit_root <- function(...){
   for(i in 2:1000){
     x[i] = x[i-1] + e[i]
   }
-  plot(x, typ="l")
+  plot(x, typ="l", col="red")
 }
 unit_root()
